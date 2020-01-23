@@ -13,7 +13,7 @@ Araçtaki elektrik tesisatının şemaları programa entegre edildi. Şemalar ü
 
 Kontrol butonuna basıldığında ilgili şemayla ilgili dosyaya ulaşarak kablo pinlerinin tek tek kontrolü sağlandı.
 
-**Araçların tesisatları şu şekildedir**
+**Araçların tesisatları şu şekildedir;**
 
 **Tampon Tesisatı:** Ön ve arka tampon tesisatları, otomotiv teknolojisi ilerleyip park
 sistemleri standart bir hale gelmeye başladıktan sonra arka tampon üzerinde yer alan
