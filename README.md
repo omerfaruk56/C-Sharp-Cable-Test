@@ -1,6 +1,6 @@
  **Otomotiv Sektörüne Üretilen Kablo Ve Kablo Donanımlarının Elektriksel Test Sisteminin Tasarımı**
  **Kurum: TEYDEB 1505 Üniversite-Sanayi İşbirliği Destek Programı - NURSAN AŞ** 
-![Alt text](https://i.ibb.co/yS4zXR9/cc.png?raw=true "Title")
+![Alt text](https://i.ibb.co/8gWDkVH/fg.png?raw=true "Title")
 
 ## **Özet**
 
