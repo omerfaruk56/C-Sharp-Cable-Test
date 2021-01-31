@@ -49,25 +49,19 @@ audio ve navigasyon gibi) işlevlerini yerine getirmesini sağlayan elektrik kab
 <b>private void pictSoket_MouseUp(object sender, MouseEventArgs e)</b>
 - Mouse sol tıklamadan parmağımızı kaldırdığımızda bu olay tetiklenmektedir. Pinleri
 kaydeder, genişlik ve uzunluk bilgilerini sıfırlar ve karecizim durumunu false yapar.
-6. private void pictSoket_MouseDown(object sender, MouseEventArgs e)
-Mouse sol tıklama yapıldığı an itibariyle imlecin koordinatlarını kare çizime aktarmayı
-sağlayan eventtir.
-7. private Pen BozukPin()
-bozukPin() metodu bize kırmızı renk değerini ve çizgi kalınlığını pen sınıfı olarak geri
-döndürür.
-8. private Pen SaglamPin()
-saglamPin() metodu bize yeşil renk değerini ve çizgi kalınlığını pen sınıfı olarak geri
-döndürür.
-9. private void soketTemizle()
-Ana ekrandaki tüm soketleri temizler.
-6
-10. public void soketResmiEkle(ListBox listSoketler)
-Openfiledialog sınıfı ile jpeg dosyalarını filtreleyerek soketleri projeye eklemeyi sağlar.
-11. public void soketleriListele(ListBox listSoketler)
-Eklenen soketierin listbox’ta görünmesini sağlar.
-12. public void gsrSaveSoket()
-Soketkerin Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini .gsr uzantılı dosyaya
-kaydeder.
-13. public override string ToString()
-ToString Metodunu override ederek Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini
-yazdırdık.
+<b>private void pictSoket_MouseDown(object sender, MouseEventArgs e)</b>
+- Mouse sol tıklama yapıldığı an itibariyle imlecin koordinatlarını kare çizime aktarmayı sağlayan eventtir.
+<b>private Pen BozukPin()</b>
+- bozukPin() metodu bize kırmızı renk değerini ve çizgi kalınlığını pen sınıfı olarak geri döndürür.
+<b>private Pen SaglamPin()</b> 
+- saglamPin() metodu bize yeşil renk değerini ve çizgi kalınlığını pen sınıfı olarak geri döndürür.
+<b>private void soketTemizle()</b>
+- Ana ekrandaki tüm soketleri temizler.
+<b>public void soketResmiEkle(ListBox listSoketler)</b>
+- Openfiledialog sınıfı ile jpeg dosyalarını filtreleyerek soketleri projeye eklemeyi sağlar.
+<b>public void soketleriListele(ListBox listSoketler)</b>
+- Eklenen soketierin listbox’ta görünmesini sağlar.
+<b>public void gsrSaveSoket()</b>
+- Soketkerin Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini .gsr uzantılı dosyaya kaydeder.
+<b>public override string ToString()</b> 
+- ToString Metodunu override ederek Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini yazdırdık.
