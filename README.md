@@ -79,3 +79,17 @@ kaydeder, genişlik ve uzunluk bilgilerini sıfırlar ve karecizim durumunu fals
 
 <b>public override string ToString()</b> 
 - ToString Metodunu override ederek Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini yazdırdık.
+
+## **SoketTestEt.cs**
+
+<b>void btnPinOlustur(int toplamPin)</b>
+- .gsr uzantılı dosyadan aldığı pin sayısı kadar buton oluşturmaktadır. Gerekli olan en, boy, name, text event bilgileri yazılmıştır.
+
+<b>private void btnPinClick(Object sender, EventArgs e)</b>
+- Oluşturulan butonların kırmızı, yeşil veya beyaz yaparak o an ki varsayılan değerleri girilmektedir. Örneğin yeşil butonsa sağlam, kırmızı ise bozuk ve beyaz ise devre dışı olmaktadır.
+
+<b>public void gsrOku(ListBox listSoketler)</b> 
+- Oluşturulan .gsr uzantılı dosyadan koordinat ve pin sayısını okuyarak gerekli işlemlerin yapılmasını sağlar.
+
+<b> public void soketTestEt()</b>
+- En son işlemler bittikten sonra gelen değerlerin Raspberry’den geliyormuş gibi değerlendirilerek soketlerdeki pinlerin durumu hakkında bilgi vermektedir
