@@ -48,24 +48,34 @@ audio ve navigasyon gibi) işlevlerini yerine getirmesini sağlayan elektrik kab
 </br>
 <b>private void pictSoket_MouseClick(object sender, MouseEventArgs e)</b>
 - Soketin oluştulmasını Mouse click eventi ile sağladık. Soketin Lokasyon,en ve boy bilgilerini alarak bize soket (picturebox) oluşturmaktadır.
+
 <b>private void pictSoket_MouseMove(object sender, MouseEventArgs e)</b> 
 - Soketin çizim işlemini Mouse move eventi ile gerçekleştirdik. Mouse hareket ettikçe imlecin hareketine bağlı olarak kare oluşturmaktadır.
+
 <b>private void pictSoket_MouseUp(object sender, MouseEventArgs e)</b>
 - Mouse sol tıklamadan parmağımızı kaldırdığımızda bu olay tetiklenmektedir. Pinleri
 kaydeder, genişlik ve uzunluk bilgilerini sıfırlar ve karecizim durumunu false yapar.
+
 <b>private void pictSoket_MouseDown(object sender, MouseEventArgs e)</b>
 - Mouse sol tıklama yapıldığı an itibariyle imlecin koordinatlarını kare çizime aktarmayı sağlayan eventtir.
+
 <b>private Pen BozukPin()</b>
 - bozukPin() metodu bize kırmızı renk değerini ve çizgi kalınlığını pen sınıfı olarak geri döndürür.
+
 <b>private Pen SaglamPin()</b> 
 - saglamPin() metodu bize yeşil renk değerini ve çizgi kalınlığını pen sınıfı olarak geri döndürür.
+
 <b>private void soketTemizle()</b>
 - Ana ekrandaki tüm soketleri temizler.
+
 <b>public void soketResmiEkle(ListBox listSoketler)</b>
 - Openfiledialog sınıfı ile jpeg dosyalarını filtreleyerek soketleri projeye eklemeyi sağlar.
+
 <b>public void soketleriListele(ListBox listSoketler)</b>
 - Eklenen soketierin listbox’ta görünmesini sağlar.
+
 <b>public void gsrSaveSoket()</b>
 - Soketkerin Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini .gsr uzantılı dosyaya kaydeder.
+
 <b>public override string ToString()</b> 
 - ToString Metodunu override ederek Lokasyon, genişlik,uzunluk, renk ve şekil bilgilerini yazdırdık.
