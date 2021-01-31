@@ -40,8 +40,10 @@ audio ve navigasyon gibi) işlevlerini yerine getirmesini sağlayan elektrik kab
 
 <b>public Soket(string _soketResmi, Form _frm, string _soketAdi)</b>
 - Constructor ile soketin resmini nerede oluşturulacağını ve soket ad bilgilerini alarak soketi oluşturduk.
+</br>
 <b>public void soketOlustur()</b>
 - Soketin en boy bilgilerinin verildiği, soketin adı oluşturulduğu, Lokasyon bilgilerinin verildiği, soket yolunun alındığı, Mouse clilck, Mouse down, Mouse up, Mouse move olaylarının oluşturulduğu metot yazıldı.
+</br>
 <b>private void pictSoket_MouseClick(object sender, MouseEventArgs e)</b>
 - Soketin oluştulmasını Mouse click eventi ile sağladık. Soketin Lokasyon,en ve boy bilgilerini alarak bize soket (picturebox) oluşturmaktadır.
 <b>private void pictSoket_MouseMove(object sender, MouseEventArgs e)</b> 
