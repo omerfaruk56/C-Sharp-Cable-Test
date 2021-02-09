@@ -7,6 +7,7 @@
 <br/>
 ## **Kullanılan Teknolojiler**
 - C#
+- Directory Sınıf (System.IO)
 - XML
 - OOP
 - Design Pattern
