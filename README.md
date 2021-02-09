@@ -5,6 +5,12 @@
  <br/>
 ![Alt text](https://i.ibb.co/8gWDkVH/fg.png?raw=true "Title")
 <br/>
+## **Kullanılan Teknolojiler**
+- C#
+- XML
+- OOP
+- Design Pattern
+
 ## **Özet**
 
 Projede araçların elektrik tesisatlarının bir simülasyon programı ile kontrol edilmesi sağlandı. 
