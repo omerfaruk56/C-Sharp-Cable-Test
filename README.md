@@ -13,31 +13,6 @@ Araçtaki elektrik tesisatının şemaları programa entegre edildi. Şemalar ü
 
 Kontrol butonuna basıldığında ilgili şemayla ilgili dosyaya ulaşarak kablo pinlerinin tek tek kontrolü sağlandı.
 
-**Araçların tesisatları şu şekildedir;**
-
-**Tampon Tesisatı:** Ön ve arka tampon tesisatları, otomotiv teknolojisi ilerleyip park
-sistemleri standart bir hale gelmeye başladıktan sonra arka tampon üzerinde yer alan
-sensor, kamera gibi cihazların işlevlerini yerine getirmesini sağlamak üzere görev alan
-elektrik kablo demetleridir.
-<br/>
-**HIS Tesisatı:** Araçta bulunan ısıtma soğutma ve havalandırma sistemlerini besler ve
-kontrol eder. Genellikle HIS ünitesi üzerinde araca monte edilir.
-<br/>
-**Kapı Tesisatı:** Aracın tasarımına göre sayısı değişmekle birlikte arka tesisat üzerinden
-kapılara bağlı cihazların (cam açma, dış ayna, kapı lambası, vb) işlevlerini yerine
-getirmesini sağlayan tesisatlardır. Standart bir binek araçta sürücü kapı tesisatı, yolcu kapı
-tesisatı ve 2 adet arka kapı tesisatı vardır.
-<br/>
-**Arka Tesisat / Gövde Tesisatı:** Araç dizayn konseptine göre “Arka Tesisat” veya “Gövde
-Tesisatı” olarak adlandırılabilen ve araçtaki diğer cihazların (yakıt tankı, hava yastığı, arka
-stop lambaları, vb) fonksiyonlarını sağlamak üzere direkt veya endirekt rol üstlenen büyük
-kablo demetlerindendir.
-<br/>
-**Ana Tesisat / Kokpit Tesisatı:** Araç dizayn konseptine göre “Kokpit Tesisatı”, “IP
-Tesisatı”, “Torpido Tesisatı” veya “Ana Tesisat” olarak adlandırılabilen ve aracın kontrol
-mekanizmasının yer aldığı Kokpit üzerindeki cihazların (gösterge, klima, hava yastığı,
-audio ve navigasyon gibi) işlevlerini yerine getirmesini sağlayan elektrik kablo demetidir.
-
 ## **Soket.cs**
 
 <b>public Soket(string _soketResmi, Form _frm, string _soketAdi)</b>
@@ -93,3 +68,7 @@ kaydeder, genişlik ve uzunluk bilgilerini sıfırlar ve karecizim durumunu fals
 
 <b> public void soketTestEt()</b>
 - En son işlemler bittikten sonra gelen değerlerin Raspberry’den geliyormuş gibi değerlendirilerek soketlerdeki pinlerin durumu hakkında bilgi vermektedir
+
+## <b>Destek</b>
+Herhangi bir sorun, geri bildirim veya özellik talebi için omerfaruk56@live.com adresine bir e-posta gönderin, github'da bir Issues oluşturun
+<br>
