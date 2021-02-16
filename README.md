@@ -5,20 +5,21 @@
  <br/>
 ![Alt text](https://i.ibb.co/8gWDkVH/fg.png?raw=true "Title")
 <br/>
-## **Kullanılan Teknolojiler**
-- C#
-- Directory Sınıf (System.IO)
-- XML
-- OOP
-- Design Pattern
 
-## **Özet**
+# **Overview**
 
 Projede araçların elektrik tesisatlarının bir simülasyon programı ile kontrol edilmesi sağlandı. 
 
 Araçtaki elektrik tesisatının şemaları programa entegre edildi. Şemalar üzerinde koordinat, genişlik, uzunluk vb.. bilgileri .gsr formatında saklandı. 
 
 Kontrol butonuna basıldığında ilgili şemayla ilgili dosyaya ulaşarak kablo pinlerinin tek tek kontrolü sağlandı.
+
+# **Technologies**
+- C#
+- Directory Sınıf (System.IO)
+- XML
+- OOP
+- Design Pattern
 
 ## **Soket.cs**
 
@@ -76,6 +77,7 @@ kaydeder, genişlik ve uzunluk bilgilerini sıfırlar ve karecizim durumunu fals
 <b> public void soketTestEt()</b>
 - En son işlemler bittikten sonra gelen değerlerin Raspberry’den geliyormuş gibi değerlendirilerek soketlerdeki pinlerin durumu hakkında bilgi vermektedir
 
-## <b>Destek</b>
+# **Support**
+
 Herhangi bir sorun, geri bildirim veya özellik talebi için omerfaruk56@live.com adresine bir e-posta gönderin, github'da bir Issues oluşturun
 <br>
